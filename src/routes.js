@@ -1,8 +1,5 @@
-/* eslint-disable eol-last */
-
 const {addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler} = require('./handler');
 
-/* eslint-disable linebreak-style */
 const routes = [
   {
     method: 'POST',

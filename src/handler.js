@@ -1,8 +1,7 @@
-/* eslint-disable space-before-blocks */
+
 const {nanoid} = require('nanoid');
 const notes = require('./notes');
 
-/* eslint-disable linebreak-style */
 const addNoteHandler = (request, h) => {
   const {title, tags, body} = request.payload;
 
